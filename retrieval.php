@@ -3,7 +3,6 @@
 // Basic retrieval plugin for TsubasaServer.
 // only retrieves at most 500 new stories.
 
-
 // return the title.
 function hackernews_getTitle() {
     return "Hacker News";
@@ -13,6 +12,7 @@ function hackernews_getTitle() {
 function hackernews_getMainLink() {
     return "https://news.ycombinator.com";
 }
+
 
 // return the top $size stories.
 function hackernews_getFeed($size) {
